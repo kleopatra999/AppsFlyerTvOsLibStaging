@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
     spec.platform     = :tvos, '10.0'
     spec.requires_arc = true
     spec.frameworks   = 'AdSupport', "Security"
-    spec.source = { :git => 'https://github.com/AppsFlyerSDK/AppsFlyerTvOsLibStaging.git', :tag => '4.7.11'}
+    spec.source = { :git => 'https://github.com/AppsFlyerSDK/AppsFlyerTvOsLibStaging.git', :tag => 'v4.7.11'}
     # spec.source = { :path => '/Users/maxim/Appsflyer/projects/TVOS/AppsFlyerTvOsLib'}
 
     spec.preserve_paths      = 'AppsFlyerLib.framework'
