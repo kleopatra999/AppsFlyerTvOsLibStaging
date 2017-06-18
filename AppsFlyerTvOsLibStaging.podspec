@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
         AppsFlyer's NativeTrack allows you to find what attracts new users to your app, measure all your app marketing activities on one dashboard, and add new traffic sources in minutes, all without having to update SDK's.
     DESC
 
-    spec.tvos.deployment_target = '9.0'
+    # spec.tvos.deployment_target = '9.0'
     spec.platform     = :tvos, '10.2'
     spec.requires_arc = true
     spec.frameworks   = 'AdSupport', "Security"
@@ -29,4 +29,3 @@ Pod::Spec.new do |spec|
 #spec.vendored_frameworks = 'AppsFlyerTvOsLib.framework'
     # spec.source_files = 'AppsFlyerLib.framework/Versions/A/Headers/*.h'
 end
-
